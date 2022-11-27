@@ -1,6 +1,6 @@
 import request from 'request';
 import requestPromise from 'request-promise';
-import logger from '../../User/resources/Log/logger.log.js';
+import logger from '../../User/resources/log/logger.log.js';
 
 function Instagram(instagram) {
   this.instagram = instagram;

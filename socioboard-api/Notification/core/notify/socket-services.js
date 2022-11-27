@@ -1,4 +1,4 @@
-import logger from '../../resources/Log/logger.log.js';
+import logger from '../../resources/log/logger.log.js';
 
 export default (io) => {
   const helper = {};

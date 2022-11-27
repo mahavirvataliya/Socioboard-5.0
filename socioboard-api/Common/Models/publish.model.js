@@ -11,7 +11,7 @@ import PublishedPost from '../Mongoose/models/published-posts.js';
 import DraftPost from '../Mongoose/models/drafted-post-lists.js';
 import AdminApprovalPost from '../Mongoose/models/admin-approval-posts.js';
 import TaskModel from '../Mongoose/models/task-models.js';
-import logger from '../../Publish/resources/Log/logger.log.js';
+import logger from '../../Publish/resources/log/logger.log.js';
 import NotificationServices from '../Shared/notify-services.js';
 import {reject} from 'async';
 import tumblrCluster from '../Cluster/tumblr.cluster.js';

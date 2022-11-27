@@ -3,7 +3,7 @@ import moment from 'moment';
 import path from 'path';
 import config from 'config';
 import fs from 'fs';
-import logger from '../../Publish/resources/Log/logger.log.js';
+import logger from '../../Publish/resources/log/logger.log.js';
 import db from '../Sequelize-cli/models/index.js';
 import sequelize from 'sequelize';
 import TeamReportLibs from './team-report.model.js';

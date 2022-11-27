@@ -1,6 +1,6 @@
 import request from 'request';
 import config from 'config';
-import logger from '../../User/resources/Log/logger.log.js';
+import logger from '../../User/resources/log/logger.log.js';
 import requestPromise from 'request-promise';
 import path, {dirname} from 'path';
 import {fileURLToPath} from 'url';

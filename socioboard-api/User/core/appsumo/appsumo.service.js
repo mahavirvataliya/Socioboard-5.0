@@ -7,7 +7,7 @@ import UnauthorizedLibs from '../../../Common/Models/unauthorized.model.js';
 const unauthorizedLibs = new UnauthorizedLibs();
 import aMember from '../../../Common/Mappings/amember.users.js';
 import db from '../../../Common/Sequelize-cli/models/index.js';
-import logger from '../../resources/Log/logger.log.js';
+import logger from '../../resources/log/logger.log.js';
 const appSumoDetails = db.appsumo_details;
 const appsumoActivation = db.appsumo_activation;
 

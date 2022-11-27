@@ -27,6 +27,14 @@ Publish/Log/*
 Update/Log/*
 User/Log/*
 
+Chat/log/*
+Common/log/*
+Feeds/log/*
+Publish/log/*
+Update/log/*
+User/log/*
+
+
 # Swagger view files
 
 Chat/resources/views/swagger-api-view.json

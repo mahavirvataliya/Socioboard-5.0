@@ -4,7 +4,7 @@ import moment from 'moment';
 
 // User DB to Update User
 import db from '../Sequelize-cli/models/index.js';
-import logger from '../../User/resources/Log/logger.log.js';
+import logger from '../../User/resources/log/logger.log.js';
 
 // Plan Mappings
 import plansMapping from './plans.mapping.js';

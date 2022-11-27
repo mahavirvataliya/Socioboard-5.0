@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 import moment from 'moment';
-import logger from '../../../Publish/resources/Log/logger.log.js';
+import logger from '../../../Publish/resources/log/logger.log.js';
 
 const { Schema } = mongoose;
 

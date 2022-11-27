@@ -6,7 +6,7 @@ import Router from 'express';
 
 import config from 'config';
 import Helper from '../../../Common/Services/authorize.services.js';
-import logger from '../../resources/Log/logger.log.js';
+import logger from '../../resources/log/logger.log.js';
 import { CatchResponse, SuccessResponse } from '../../../Common/Shared/response.shared.js';
 /**
  * Express router to mount socket related routes

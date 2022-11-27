@@ -1,5 +1,5 @@
 import request from 'request';
-import logger from '../../User/resources/Log/logger.log.js';
+import logger from '../../User/resources/log/logger.log.js';
 import requestPromise from 'request-promise';
 import db from '../Sequelize-cli/models/index.js';
 const socialAccount = db.social_accounts;

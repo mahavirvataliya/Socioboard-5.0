@@ -1,8 +1,8 @@
 {
   "localDev": {
-    "username": "root",
-    "password": "socioV5devPassword",
-    "database": "socioV5dev",
+    "username": "scbadmin",
+    "database": "scbsql",
+    "password": "sqlpass",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "pool": {
@@ -24,20 +24,20 @@
       "timestamps": false
     },
     "timezone": "+00:00",
-    "logging": false,
+    "logging": true,
     "seederStorage": "sequelize"
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
+    "username": "scbadmin",
+    "database": "scbsql",
+    "password": "sqlpass",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
   "development": {
-    "username": "<< DB USER NAME >>",
-    "database": "<< Database name >>",
-    "password": "<< password >>",
+    "username": "scbadmin",
+    "database": "scbsql",
+    "password": "sqlpass",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "pool": {
@@ -59,7 +59,7 @@
       "timestamps": false
     },
     "timezone": "+00:00",
-    "logging": false,
+    "logging": true,
     "seederStorage": "sequelize"
   }
 }

@@ -19,7 +19,7 @@ import AdminApprovalPostModels from '../Mongoose/models/admin-approval-posts.js'
 import TaskModels from '../Mongoose/models/task-models.js';
 import SchedulePostModels from '../Mongoose/models/schedule-posts.js';
 
-import logger from '../../Publish/resources/Log/logger.log.js';
+import logger from '../../Publish/resources/log/logger.log.js';
 
 const Operator = db.Sequelize.Op;
 const userTeamJoinTable = db.join_table_users_teams;

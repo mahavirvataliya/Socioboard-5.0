@@ -1,7 +1,7 @@
 import config from 'config';
 import moment from 'moment';
 import Helper from '../../Common/Services/authorize.services.js';
-import logger from '../resources/Log/logger.log.js';
+import logger from '../resources/log/logger.log.js';
 
 const helper = new Helper(config.get('authorize'));
 

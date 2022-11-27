@@ -2,7 +2,7 @@ import {
   ErrorResponse, SuccessResponse, CatchResponse, ValidateErrorResponse,
 } from '../../../Common/Shared/response.shared.js';
 import TaskModel from '../../../Common/Models/task.model.js';
-import logger from '../../resources/Log/logger.log.js';
+import logger from '../../resources/log/logger.log.js';
 
 const taskModel = new TaskModel();
 

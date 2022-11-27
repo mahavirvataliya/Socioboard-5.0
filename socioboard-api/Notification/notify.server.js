@@ -18,7 +18,7 @@ import fileStreamRotator from 'file-stream-rotator';
 import Routes from './resources/routes/public.routes.js';
 import MongoConnect from './resources/database/mongo.database.js';
 import DbConnect from './resources/database/mysql.database.js';
-import Logger from './resources/Log/logger.log.js';
+import Logger from './resources/log/logger.log.js';
 
 const app = express();
 const require = createRequire(import.meta.url);
@@ -26,7 +26,7 @@ const swaggerFile = JSON.parse(
   fs.readFileSync('./resources/views/swagger-api-view.json', 'utf-8')
 );
 const __dirname = path.resolve();
-const logDir = `${__dirname}/resources/Log/ResponseLog`;
+const logDir = `${__dirname}/resources/log/ResponseLog`;
 
 class App {
   constructor() {
@@ -43,7 +43,7 @@ class App {
     app.use(express.urlencoded({extended: false}));
     app.use(express.static('public'));
     app.use(express.static('../../media'));
-    app.use(express.static('./resources/Log/ResponseLog'));
+    app.use(express.static('./resources/log/ResponseLog'));
     app.use(cookieParser());
     app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({extended: false}));

@@ -6,7 +6,7 @@ import db from '../Sequelize-cli/models/index.js';
 import AuthorizeServices from '../Services/authorize.services.js';
 import TwtConnect from '../Cluster/twitter.cluster.js';
 import CoreServices from '../Services/core.services.js';
-import logger from '../../User/resources/Log/logger.log.js';
+import logger from '../../User/resources/log/logger.log.js';
 import FbConnect from '../Cluster/facebook.cluster.js';
 import PinterestConnect from '../Cluster/pinterest.cluster.js';
 import LinkedInConnect from '../Cluster/linkedin.cluster.js';

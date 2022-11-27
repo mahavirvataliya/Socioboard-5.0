@@ -7,7 +7,7 @@ import SchedulePost from '../../../Common/Mongoose/models/scheduleposts.js'
 import publishController from '../publish/publish.controller.js'
 import CoreServices from '../../../Common/Services/core.services.js'
 const coreServices = new CoreServices(config.get('authorize'));
-import logger from '../../resources/Log/logger.log.js'
+import logger from '../../resources/log/logger.log.js'
 
 const scheduledInformations = db.scheduled_informations;
 const scheduleDetails = db.users_schedule_details;

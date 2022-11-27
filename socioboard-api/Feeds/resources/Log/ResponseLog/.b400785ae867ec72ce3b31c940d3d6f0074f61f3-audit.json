@@ -3,11 +3,11 @@
         "days": true,
         "amount": 3
     },
-    "auditLog": "resources/Log/ResponseLog/.b400785ae867ec72ce3b31c940d3d6f0074f61f3-audit.json",
+    "auditLog": "resources/log/ResponseLog/.b400785ae867ec72ce3b31c940d3d6f0074f61f3-audit.json",
     "files": [
         {
             "date": 1634809825992,
-            "name": "resources/Log/ResponseLog/user21-10-2021.log",
+            "name": "resources/log/ResponseLog/user21-10-2021.log",
             "hash": "db07d6bcbf95e7311718cade8f70b77b"
         }
     ]

@@ -4,7 +4,7 @@ import TwtConnect from '../../../Common/Cluster/twitter.cluster.js';
 import InviteModel from '../../../Common/Models/invitation.model.js';
 import Validator from './invitation.validate.js';
 import {ValidateErrorResponse,ErrorResponse,SuccessResponse} from '../../../Common/Shared/response.shared.js';
-import logger from '../../resources/Log/logger.log.js';
+import logger from '../../resources/log/logger.log.js';
 
 const invitemodel = new InviteModel();
 

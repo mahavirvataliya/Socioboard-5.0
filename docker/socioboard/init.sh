@@ -32,11 +32,14 @@ sed -i "s;<<NOTIFICATION NODE SERVICE>>;http://${DOMAIN}:3004/;g" .env
 # init mysql db
 while [ ! -e "/data/db.init" ];do
     echo "Initializing MySQL Database"
+    sleep 20s
     cd /usr/socioboard/app/
     cd ./socioboard-api/Common/Sequelize-cli && \
+    npm i pm2 sequelize-cli -g && \
     export NODE_ENV=development && \
-    npx sequelize-cli db:migrate && \
-    npx sequelize-cli db:seed --seed seeders/20210303111816-initialize_application_informations.cjs
+    sequelize-cli db:migrate && \
+    sequelize-cli db:seed --seed seeders/20210303111816-initialize_application_informations.cjs
+    echo "Migration Completed"
     touch /data/db.init
     break;
 done

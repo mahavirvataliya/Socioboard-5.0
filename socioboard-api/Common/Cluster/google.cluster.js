@@ -7,7 +7,7 @@ import path, {dirname} from 'path';
 
 import {fileURLToPath} from 'url';
 import fs from 'fs';
-import logger from '../../Publish/resources/Log/logger.log.js';
+import logger from '../../Publish/resources/log/logger.log.js';
 
 const require = createRequire(import.meta.url);
 

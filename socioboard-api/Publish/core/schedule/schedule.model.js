@@ -1,7 +1,7 @@
 import moment from 'moment';
 import schedule from 'node-schedule';
 import config from 'config';
-import logger from '../../Publish/resources/Log/logger.log.js';
+import logger from '../../Publish/resources/log/logger.log.js';
 import SchedulePost from '../Mongoose/models/schedule-posts.js';
 import TaskModel from '../Mongoose/models/task-models.js';
 

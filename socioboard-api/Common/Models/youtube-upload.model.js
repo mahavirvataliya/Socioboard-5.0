@@ -6,7 +6,7 @@ import moment from 'moment';
 import config from 'config';
 import db from '../Sequelize-cli/models/index.js';
 import YouTubeUploadPosts from '../Mongoose/models/youtube-upload-posts.js';
-import logger from '../../Publish/resources/Log/logger.log.js';
+import logger from '../../Publish/resources/log/logger.log.js';
 import PublishModel from './publish.model.js';
 const {Op} = db.Sequelize;
 const YouTubeUploadDetails = db.user_youtube_upload_details;

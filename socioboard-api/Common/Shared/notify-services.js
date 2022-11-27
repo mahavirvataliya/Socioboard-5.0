@@ -1,6 +1,6 @@
 import requestPromise from 'request-promise';
 import NotifyModel from '../Mongoose/models/notifications.js';
-import logger from '../../Publish/resources/Log/logger.log.js';
+import logger from '../../Publish/resources/log/logger.log.js';
 
 function Notification(host_url) {
   this.host_url = host_url;

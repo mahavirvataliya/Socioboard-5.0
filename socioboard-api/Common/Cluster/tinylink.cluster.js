@@ -1,4 +1,4 @@
-import logger from '../../User/resources/Log/logger.log.js';
+import logger from '../../User/resources/log/logger.log.js';
 import axios from 'axios';
 import qs from 'qs'
 

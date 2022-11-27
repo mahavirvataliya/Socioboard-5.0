@@ -5,7 +5,7 @@ import request from 'request';
 import async from 'async';
 import path, {dirname} from 'path';
 import moment from 'moment';
-import logger from '../../Publish/resources/Log/logger.log.js';
+import logger from '../../Publish/resources/log/logger.log.js';
 import sizeOf from 'image-size';
 import {fileURLToPath} from 'url';
 import fs from 'fs';

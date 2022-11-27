@@ -162,7 +162,7 @@ cd ./socioboard-api/User & npm install & cd ../Feeds & npm install & cd ../Commo
 + We should do this in rest 3 micro services as well.
 ```
 
-### `Note:` If you facing any issue, in that same folder you need to go to resources/Log/ResponseLog folder and check the proper log file to fix it.
+### `Note:` If you facing any issue, in that same folder you need to go to resources/log/ResponseLog folder and check the proper log file to fix it.
 
 
 ### `If you want to run all with pm2`

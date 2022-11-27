@@ -19,7 +19,7 @@ import FacebookConnect from '../../../Common/Cluster/facebook.cluster.js';
 import InstaConnect from '../../../Common/Cluster/instagram.cluster.js';
 import CoreServices from '../../../Common/Services/core.services.js';
 import TwitterInsightPostModel from '../../../Common/Mongoose/models/twitter-insights.js';
-import logger from '../../resources/Log/logger.log.js';
+import logger from '../../resources/log/logger.log.js';
 import schedule from 'node-schedule';
 import AuthorizeServices from '../../../Common/Services/authorize.services.js';
 import UserTeamAccount from '../../../Common/Shared/user-team-accounts.shared.js';

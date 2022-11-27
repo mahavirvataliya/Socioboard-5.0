@@ -8,7 +8,7 @@ import SchedulePost from '../../../Common/Mongoose/models/schedule-posts.js';
 import publishController from '../publish/publish.controller.js';
 import scheduleServise from '../schedule/schedule.service.js';
 import CoreServices from '../../../Common/Services/core.services.js';
-import logger from '../../resources/Log/logger.log.js';
+import logger from '../../resources/log/logger.log.js';
 
 import SCHEDULE_CONSTANTS from './schedule.constants.js';
 

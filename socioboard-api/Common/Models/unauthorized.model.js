@@ -11,7 +11,7 @@ const teamLibs = new TeamLibs();
 // import config from 'config';
 
 import AuthorizeServices from '../Services/authorize.services.js';
-import logger from '../../User/resources/Log/logger.log.js';
+import logger from '../../User/resources/log/logger.log.js';
 // const AuthorizeServices = require('../Services/authorizeServices.js')
 // const twitterApi = require('node-twitter-api')
 

@@ -8,7 +8,7 @@ import moment from 'moment';
 import {fileURLToPath} from 'url';
 import fs from 'fs';
 import axios from 'axios';
-import logger from '../../Publish/resources/Log/logger.log.js';
+import logger from '../../Publish/resources/log/logger.log.js';
 import config from 'config';
 
 const require = createRequire(import.meta.url);

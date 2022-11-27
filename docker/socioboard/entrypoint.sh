@@ -29,7 +29,7 @@ done
 # start api
 cd /usr/socioboard/app/
 echo "Starting API"
-npm i pm2 -g && \
+npm i pm2 sequelize-cli -g && \
 export NODE_ENV=development && \
 cd ./socioboard-api/User && su-exec socioboard pm2 start user.server.js && \
 cd ../Feeds && su-exec socioboard pm2 start feeds.server.js && \

@@ -1,7 +1,7 @@
 import config from 'config';
 import db from '../Sequelize-cli/models/index.js';
 import PublishedPost from '../Mongoose/models/published-posts.js';
-import logger from '../../Publish/resources/Log/logger.log.js';
+import logger from '../../Publish/resources/log/logger.log.js';
 import CoreServices from '../Services/core.services.js';
 import UserTeamAccountLibs from '../Shared/user-team-accounts-libs.shared.js';
 

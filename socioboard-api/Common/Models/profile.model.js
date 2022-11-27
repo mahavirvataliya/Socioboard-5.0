@@ -4,7 +4,7 @@ import db from '../Sequelize-cli/models/index.js';
 
 import LinkedInHelper from '../Cluster/linkedin.cluster.js';
 import GoogleHelper from '../Cluster/google.cluster.js';
-import logger from '../../Publish/resources/Log/logger.log.js';
+import logger from '../../Publish/resources/log/logger.log.js';
 
 const socialAccount = db.social_accounts;
 

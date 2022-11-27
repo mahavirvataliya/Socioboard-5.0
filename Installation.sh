@@ -40,4 +40,4 @@ cd ../../../socioboard-api/User && npm run swagger && cd ../Feeds && npm run swa
 
 echo -e "$(tput setaf 1)3) All-in-One Command - Starts all Microservices in PM2$(tput setaf 7)"
 
-npm i pm2 -g && export NODE_ENV=development && cd socioboard-api/User && pm2 start user.server.js && cd ../Feeds && pm2 start feeds.server.js && cd ../Publish && pm2 start publish.server.js && cd ../Notification && pm2 start notify.server.js && cd ../Update && pm2 start update.server.js && cd ../Admin && pm2 start admin.server.js && pm2 status && cd ../../
+npm i pm2 sequelize-cli -g && export NODE_ENV=development && cd socioboard-api/User && pm2 start user.server.js && cd ../Feeds && pm2 start feeds.server.js && cd ../Publish && pm2 start publish.server.js && cd ../Notification && pm2 start notify.server.js && cd ../Update && pm2 start update.server.js && cd ../Admin && pm2 start admin.server.js && pm2 status && cd ../../

@@ -53,10 +53,10 @@
     }
   },
   "mysql": {
-    "host": "localhost",
-    "username": "<< username >>",
-    "database": "<< Database name >>",
-    "password": "<< Database password >>"
+    "host": "127.0.0.1",
+    "username": "scbadmin",
+    "database": "scbsql",
+    "password": "sqlpass"
   },
   "mongo": {
     "username": "<< username >>",
